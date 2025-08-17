@@ -1,0 +1,9 @@
+import std.stdio (Stdout)
+
+type async Main {
+  fn async main {
+    let stdout = Stdout.new
+
+    stdout.print('Hello, world')
+  }
+}
